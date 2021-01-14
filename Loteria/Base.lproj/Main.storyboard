@@ -36,6 +36,9 @@
                                 </segments>
                                 <color key="tintColor" systemColor="linkColor"/>
                                 <color key="selectedSegmentTintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <action selector="generateGame" destination="BYZ-38-t0r" eventType="valueChanged" id="MOd-ZM-5lz"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npb-cY-o9I">
                                 <rect key="frame" x="16" y="772" width="382" height="50"/>
@@ -52,6 +55,9 @@
                                         <integer key="value" value="12"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="generateGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="A15-2d-rxe"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="cyM-WT-sZx">
                                 <rect key="frame" x="57" y="350" width="300" height="196"/>
@@ -59,21 +65,21 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ijy-OB-U1K">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzE-We-l8w">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzE-We-l8w">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <state key="normal" title="60" backgroundImage="ball">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgV-Re-ZmY">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgV-Re-ZmY">
                                                 <rect key="frame" x="105" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <state key="normal" title="60" backgroundImage="ball">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Isj-Qi-veC">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Isj-Qi-veC">
                                                 <rect key="frame" x="210" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <state key="normal" title="60" backgroundImage="ball">
@@ -85,21 +91,21 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0Pt-ZL-PZA">
                                         <rect key="frame" x="0.0" y="106" width="300" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3b-aA-T7Z">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3b-aA-T7Z">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <state key="normal" title="60" backgroundImage="ball">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFK-J9-WaQ">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFK-J9-WaQ">
                                                 <rect key="frame" x="105" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <state key="normal" title="60" backgroundImage="ball">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUg-yc-hoU">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUg-yc-hoU">
                                                 <rect key="frame" x="210" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <state key="normal" title="60" backgroundImage="ball">
@@ -130,6 +136,16 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Npb-cY-o9I" secondAttribute="trailing" constant="16" id="xaG-p2-Zd5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lbGameType" destination="zeK-eh-bpc" id="emc-cu-7TP"/>
+                        <outlet property="scGameType" destination="qNM-WY-MWN" id="cy2-w2-xdu"/>
+                        <outletCollection property="balls" destination="FzE-We-l8w" collectionClass="NSMutableArray" id="ghM-zk-t8K"/>
+                        <outletCollection property="balls" destination="tgV-Re-ZmY" collectionClass="NSMutableArray" id="y2R-g4-dJB"/>
+                        <outletCollection property="balls" destination="Isj-Qi-veC" collectionClass="NSMutableArray" id="XwV-gc-GiH"/>
+                        <outletCollection property="balls" destination="X3b-aA-T7Z" collectionClass="NSMutableArray" id="b1X-d4-Mwc"/>
+                        <outletCollection property="balls" destination="iFK-J9-WaQ" collectionClass="NSMutableArray" id="0OG-3n-vTD"/>
+                        <outletCollection property="balls" destination="OUg-yc-hoU" collectionClass="NSMutableArray" id="FJW-0S-7aY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
